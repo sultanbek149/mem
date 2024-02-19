@@ -335,8 +335,6 @@ video {
 }
 
 body {
-  max-height: 700px;
-  height: 100vh;
 }
 
 .container {
@@ -382,7 +380,8 @@ h1 {
 .container1 {
   position: relative;
   max-height: 600px;
-  height: 90vh;
+  /* height: 90vh; */
+  margin-bottom: 100px;
 }
 
 img[slot="first"] {
@@ -666,5 +665,60 @@ h2 {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 1210px) {
+  h1 {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flex {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .container1 {
+    max-height: none;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  .cat {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 572px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .cat {
+    max-width: 250px;
   }
 }
