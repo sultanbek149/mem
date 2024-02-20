@@ -486,7 +486,7 @@ img[slot="first"] {
 
 .name2 {
   display: inline-block;
-  color: #efb500;
+  color: #00ef04;
   border-bottom: 4px solid red;
   transform: rotate(358deg);
   -webkit-transform: rotate(358deg);
@@ -494,7 +494,7 @@ img[slot="first"] {
 
 .y {
   display: inline-block;
-  color: #efb500;
+  color: #00ef04;
   transform: rotate(358deg);
   -webkit-transform: rotate(358deg);
 }
@@ -516,7 +516,7 @@ h2 {
 }
 
 .text {
-  max-width: 750px;
+  max-width: 860px;
   margin: auto;
   font-size: 30px;
 
